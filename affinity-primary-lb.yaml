@@ -4,7 +4,7 @@ metadata:
   name: primary
 spec:
   selector:    
-    harness.io/color: blue
+    env: blue
   type: LoadBalancer
   ports:  
     - name: http
