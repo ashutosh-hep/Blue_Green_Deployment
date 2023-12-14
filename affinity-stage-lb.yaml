@@ -4,7 +4,7 @@ metadata:
   name: stage
 spec:
   selector:    
-    harness.io/color: Green
+    env: green
   type: LoadBalancer
   ports:  
     - name: http
