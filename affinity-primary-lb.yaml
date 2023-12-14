@@ -4,7 +4,7 @@ metadata:
   name: primary
 spec:
   selector:    
-    env: blue
+    env: green
   type: LoadBalancer
   ports:  
     - name: http
