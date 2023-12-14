@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: flask-deployment-green
   labels:
-    app: flask
+    env: green
 spec:
   replicas: 2
   selector:
@@ -12,7 +12,7 @@ spec:
   template:
     metadata:
       labels:
-        app: flask
+        env: green
     spec:
       affinity:
         nodeAffinity:
